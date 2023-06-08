@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 72px 72px 72px 72px 72px 72px 72px 72px 72px 72px 72px 72px;
+  justify-content: center;
+  grid-gap: 24px;
+  min-width: 1440px;
+}
+
+.login-modal {
+  grid-column: 4 / span 6;
+  margin-top: 25vh;
+}
+
+.login-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  /* identical to box height, or 127% */
+
+  color: #1C1B1F;
+}

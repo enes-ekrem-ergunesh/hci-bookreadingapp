@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 72px 72px 72px 72px 72px 72px 72px 72px 72px 72px 72px 72px;
+  justify-content: center;
+  grid-gap: 24px;
+  min-width: 1440px;
+  margin-top: 24px;
+}
+
+.card {
+  background: linear-gradient(
+      0deg,
+      rgba(103, 80, 164, 0.05),
+      rgba(103, 80, 164, 0.05)
+    ),
+    #fffbfe;
+  /* M3/Elevation Light/2 */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),
+    0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+
+  // width: 264px;
+  // height: 458px;
+
+  grid-column: span 3;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.media {
+  width: 100%;
+  height: 310px;
+  text-align: center;
+}
+
+.card-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.5px;
+
+  /* M3/sys/light/on-surface */
+
+  color: #1c1b1f;
+  margin: 0;
+  margin-left: 16px;
+
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 0.25px;
+
+  /* M3/sys/light/on-surface-variant */
+
+  color: #49454f;
+
+  margin: 0;
+  margin-left: 16px;
+
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-footer {
+  padding: 10px;
+  margin-top: 30px;
+  text-align: end;
+}
+
+.secondary-button {
+  width: 143px;
+  height: 40px;
+  border: 1px solid #79747e;
+  border-radius: 100px;
+
+  display: none;
+}
+
+.secondary-button-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-align: center;
+  letter-spacing: 0.1px;
+
+  /* M3/sys/light/primary */
+
+  color: #6750a4;
+}
+
+.primary-button {
+  width: 81px;
+  height: 40px;
+  background: #6750a4;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.primary-button-text {
+  /* M3/label/large */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-align: center;
+  letter-spacing: 0.1px;
+
+  /* M3/sys/light/on-primary */
+
+  color: #ffffff;
+}

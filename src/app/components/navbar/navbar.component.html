@@ -1,0 +1,14 @@
+<nav class="navbar">
+  <div class="logo">
+    <img class="logo-img" src="../../../assets/app-logo.png" alt="Logo">
+    <h3 class="logo-text">READIT</h3>
+  </div>
+  <ul class="nav-links">
+    <li [class.active]="activePage === 0">
+      <a routerLink="/home">Home</a>
+    </li>
+    <li [class.active]="activePage === 2">
+      <a routerLink="/about">About</a>
+    </li>
+  </ul>
+</nav>
